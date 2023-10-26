@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary {
+    color: #FD6E0A;
+}
+.btn-primary {
+    background-color: #FD6E0A;
+    padding: 0 35px 0 35px;
+    height: 64px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700px;
+    color: white;
+}
+.btn-secondry {
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 0 60px 0 60px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 7500px;
+    margin: 15px;
+    background-color: #FFF8F3;
+}
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left bottom;
+    padding-top: 30px;
+}
+.header-nav {
+    font-size: 45px;
+    font-weight: 800px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px 0 200px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+.banner-section {
+    display: flex;
+    align-items: center;
+    margin: 0 50px 0 200px;
+}
+.banner-sub-title {
+    font-size: 45px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+}
+.banner-title {
+    font-size: 85px;
+    font-weight: 700px;
+}
+.banner-paragraph {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.icon {
+    margin-right: 10px;
+}
+/* About me:- main(tag) start*/
+.about-me {
+    background-color: #FFF8F3;
+    margin: 130px 230px;
+    border-radius: 10px;
+}
+.common-heading {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+    padding-top: 100px;
+}
+.aboutme-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
+    padding: 30px 100px 30px 100px;
+}
+.about-info {
+    display: flex;
+    gap: 30px;
+    padding: 0 80px 100px 80px;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.about-discription {
+    text-align: center;
+    color: #757575;
+}
+.extra-about {
+    margin: 0px 200px 100px 200px;
+}
+.extra-what-do {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.extra-about-pera {
+    text-align: center;
+    padding: 30px 100px 20px 130px;
+    color: #757575;
+    font-size: 18px;
+}
+/* About Me:-main(tag) end */
+/* Bio data start */
+.extra-info {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.bettwen {
+    width: 230px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 30px;
+}
+.experience-img {
+    padding: 30px
+}
+.experience-data {
+    padding: 0 30px;
+}
+.experience-bio {
+    padding: 30px;
+    color: #757575;
+}
+/* Bio data end */
+/* CV Resume start */
+.cv {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* summary resume start */
+.rsume-information {
+    margin: 100px 230px;
+    /* width: 1600px;
+    height: 4256px;
+    align-items: center; */
+.resume-information {
+    /* margin: 100px 230px; */
+    margin: 100px 0 150px 230px;
+
+}
+.resume-commpany{
+    margin: -680px 230px 150px 600px;
+}
+
+.resume-intro {
+    width: 500px;
+}
+.resume-education {
+    font-size: 30px;
+    font-weight: 700px;
+    color: #474747;
+}
+.work-place {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700px;
+    padding: 30px 0 5px 0;
+}
+.study-commpany {
+    font-size: 20px;
+    font-weight: 600px;
+    color: #757575;
+    padding-bottom: 20px;
+}
+.resum-pera {
+    color: #757575;
+    padding-bottom: 30px;
+}
+hr {
+    width: 558px;
+}
+/* footer part start */
+.footer-part {
+    background-color: #FFF8F3;
+    height: 780px;
+    display: block;
+}
+.footer-comment {
+    margin: 0 0 20px 230px;
+    padding-top: 130px;
+    font-size: 35px;
+    font-weight: 700px;
+    color: #181818;
+}
+.footer-comment-pera {
+    margin-left: 230px;
+    color: #474747;
+    width: 562px;
+}
+.footer-icons {
+    margin: 30px 0 0 230px;
+    display: flex;
+    gap: 20px;
+}
+.footer-message {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+    color: #181818;
+}
+.footer-form {
+    text-align: center;
+}
+input[type],
+input[email] {
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    margin: 20px 0 8px 0;
+    background-color: #fff;
+}
+textarea {
+    width: 280px;
+    height: 130px;
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 0 20px 0;
+}
+.footer-button {
+    margin-left: -195px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #FD6E0A;
+    text-emphasis: none;
+}
+.footer-form-contact {
+    margin: -170px 230px 200px 909px;
+    display: block;
+}
